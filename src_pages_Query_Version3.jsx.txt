@@ -1,0 +1,11 @@
+export default function Query() {
+  return (
+    <>
+      <h1>Ask a Question</h1>
+      <p>
+        Submit your question using our confidential form.<br/>
+        (Form coming soon. We’ll respond to your provided email address. Your privacy is respected.)
+      </p>
+    </>
+  );
+}

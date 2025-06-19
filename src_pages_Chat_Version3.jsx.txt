@@ -1,0 +1,14 @@
+export default function Chat() {
+  return (
+    <>
+      <h1>Schedule a Chat</h1>
+      <p>
+        Get in touch for a confidential, supportive conversation.<br/>
+        <b>Booking system coming soon!</b>
+      </p>
+      <p>
+        (This is where your Calendly or booking link will appear.)
+      </p>
+    </>
+  );
+}

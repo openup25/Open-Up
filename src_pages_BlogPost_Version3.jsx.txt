@@ -1,0 +1,42 @@
+import { useParams } from "react-router-dom";
+
+const postContent = {
+  "coping-with-anxiety": {
+    title: "Coping with Anxiety",
+    body: (
+      <>
+        <p>
+          Anxiety can feel overwhelming, but small steps make a difference. Practice mindful breathing, reach out to friends, and remember: you’re not alone.
+        </p>
+        <p>
+          For more resources, visit our <a href="/resources">Resources</a> page.
+        </p>
+      </>
+    )
+  },
+  "building-happy-habits": {
+    title: "Building Happy Habits",
+    body: (
+      <>
+        <p>
+          Daily habits shape our happiness. Try gratitude journaling, regular walks, and mindful pauses throughout your day.
+        </p>
+        <p>
+          Want more tips? Check our <a href="/blogs">blog archive</a>.
+        </p>
+      </>
+    )
+  }
+};
+
+export default function BlogPost() {
+  const { slug } = useParams();
+  const post = postContent[slug];
+  if (!post) return <p>Blog post not found.</p>;
+  return (
+    <>
+      <h1>{post.title}</h1>
+      {post.body}
+    </>
+  );
+}

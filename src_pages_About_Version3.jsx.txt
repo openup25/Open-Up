@@ -1,0 +1,12 @@
+export default function About() {
+  return (
+    <>
+      <h1>About OpenUp</h1>
+      <p>
+        OpenUp is dedicated to spreading hope, happiness, and practical skills for life and mental wellbeing.<br/>
+        Our mission: create a supportive, informative, and joyful community.<br/>
+        All questions are welcome — together, let’s open up!
+      </p>
+    </>
+  );
+}

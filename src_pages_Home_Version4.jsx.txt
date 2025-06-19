@@ -1,0 +1,18 @@
+export default function Home() {
+  return (
+    <>
+      <h1>Welcome to OpenUp!</h1>
+      <p>
+        OpenUp is your safe space for mental health, joy, and practical life skills.<br/>
+        Explore our blogs, download helpful resources, connect with experts, and share your journey.
+      </p>
+      <ul>
+        <li>Read inspiring <a href="/blogs">blog posts</a> on wellbeing and life skills.</li>
+        <li>Download free <a href="/resources">journals and white papers</a>.</li>
+        <li>Schedule a <a href="/chat">private chat</a> for support.</li>
+        <li>Ask questions <a href="/query">confidentially</a> (answered by email).</li>
+        <li>Share <a href="/feedback">feedback and suggestions</a> openly.</li>
+      </ul>
+    </>
+  );
+}

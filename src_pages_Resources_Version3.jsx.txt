@@ -1,0 +1,19 @@
+export default function Resources() {
+  return (
+    <>
+      <h1>Free Resources</h1>
+      <p>
+        Download journals, white papers, and guides to support your mental health journey.<br/>
+        Newsletter and downloads coming soon!
+      </p>
+      <ul>
+        <li>
+          <span style={{color:"#aaa"}}>Mindful Living Journal (PDF) — coming soon</span>
+        </li>
+        <li>
+          <span style={{color:"#aaa"}}>Mental Health White Paper — coming soon</span>
+        </li>
+      </ul>
+    </>
+  );
+}

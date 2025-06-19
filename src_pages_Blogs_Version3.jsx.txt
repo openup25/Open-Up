@@ -1,0 +1,22 @@
+import { Link } from "react-router-dom";
+
+const posts = [
+  { slug: "coping-with-anxiety", title: "Coping with Anxiety", excerpt: "Tips and techniques for managing daily stress and anxiety." },
+  { slug: "building-happy-habits", title: "Building Happy Habits", excerpt: "How to create life-affirming routines to boost your mood." }
+];
+
+export default function Blogs() {
+  return (
+    <>
+      <h1>Blog Posts</h1>
+      <ul>
+        {posts.map(post => (
+          <li key={post.slug}>
+            <Link to={`/blogs/${post.slug}`}><b>{post.title}</b></Link>
+            <p>{post.excerpt}</p>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}

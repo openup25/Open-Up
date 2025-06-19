@@ -1,0 +1,11 @@
+export default function Feedback() {
+  return (
+    <>
+      <h1>Feedback & Suggestions</h1>
+      <p>
+        Help us improve! Share your thoughts, feedback, or suggestions openly.<br/>
+        (Feedback form coming soon.)
+      </p>
+    </>
+  );
+}
